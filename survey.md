@@ -1,5 +1,5 @@
 ## 1. Robotic Learning Directions
-- Vision-Language-Model (VLM): VLM act as an ageent that can genrate task execution function code. e.g, ReKep, Voxposer
+- Vision-Language-Model (VLM): VLM act as an agent that can genrate task execution function code. e.g, ReKep, Voxposer
 - Behaviror cloning(BC): learning from demonstration data and generate action sequences. e.g., Action chunking, Policy diffusion, Flow matching
 - Vision-language-action (VLA): genration action sequence end-to-end. e.g., Issac GR001, Pi-0, OpenVLA.
 - VLM + VLA: slow think (VLM) for planning and fast think for action generation (VLA). e.g., [figureAI](https://www.figure.ai/)
@@ -20,7 +20,7 @@ eg: Groot N1 , Octo, OpenVLA
 ## 2. Vision-Language-Model
 Input the image observation of robots to large-vision model and the human prompt to vision luange model, finally genration the code that contains the tasks execution functions.
 
-Please see the below typical research article named ReKep:
+Please see the below typical research article named [ReKep](https://arxiv.org/abs/2409.01652) that proposed by FeiFei Li team.
 ![alt text](images/ReKep.png)
 
 
