@@ -129,7 +129,7 @@ Architecture: For high level reasoning and perception, a distilled version of Ge
 ![image](images/exp_env.png)
 
 ## Reference
-[1]. [Rekep spatio-temporal reasoning of relational keypoint constraints for robotic manipulation](https://arxiv.org/abs/2409.01652)
+[1]. [Rekep spatio-temporal reasoning of relational keypoint constraints for robotic manipulation](https://arxiv.org/abs/2409.01652) \
 [2]. [Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware](https://arxiv.org/pdf/2304.13705) \
 [3]. [Action chunking vs closed-loop control](https://www.haonanyu.blog/post/action_chunking/) \
 [4]. [Diffusion Policy](https://diffusion-policy.cs.columbia.edu/) [[Source Code]](https://github.com/real-stanford/diffusion_policy) [[Video]](https://www.bilibili.com/video/BV1ZaeAe7EMu/?spm_id_from=333.337.search-card.all.click&vd_source=5acd2d369a16a68747ef0223c2f4a7a4 ) \
