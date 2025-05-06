@@ -42,6 +42,9 @@ This is in contrast to the typical closed-loop control, where the policy observe
 #### 2.2.1 Action Space Scalability: easily afford action sequence prediction
 ![alt text](images/action_space_scalability.png)
 
+#### 2.2.2 Reproduce
+- [https://www.youtube.com/watch?v=eO5wMzw9LeQ](https://www.youtube.com/watch?v=eO5wMzw9LeQ)
+
 ## 3. VLA Research Questions
 Survey paper: [Towards Generalist Robot Policies: What Matters in Building Vision-Language-Action Models](https://robovlms.github.io/)
 
