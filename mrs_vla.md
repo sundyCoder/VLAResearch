@@ -25,6 +25,7 @@ Challenge:
 
 ### 2.4 [CLAS: Coordinating Multi-Robot Manipulation with Central Latent Action Spaces](https://proceedings.mlr.press/v211/aljalbout23a/aljalbout23a.pdf)
 This work proposes an approach to coordinating multi-robot manipulation through learned latent action spaces that are shared across different agent.
+
 ![image](images/cop_manipulation.png)
 ![image](images/cpm_problem.png)
 
