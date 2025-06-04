@@ -85,6 +85,6 @@ This work proposes an approach to coordinating multi-robot manipulation through 
 
 
 ### Reference
-[1]. [Distributed Planning for Multi-Robot Cooperation](https://backend.orbit.dtu.dk/ws/portalfiles/portal/398932794/PhD_Thesis.pdf)
-[2]. [RoboOS: A Hierarchical Embodied Framework for Cross-Embodiment and Multi-Agent Collaboration](https://www.arxiv.org/abs/2505.03673)[[Code]](https://github.com/FlagOpen/RoboOS)
+[1]. [Distributed Planning for Multi-Robot Cooperation](https://backend.orbit.dtu.dk/ws/portalfiles/portal/398932794/PhD_Thesis.pdf) \
+[2]. [RoboOS: A Hierarchical Embodied Framework for Cross-Embodiment and Multi-Agent Collaboration](https://www.arxiv.org/abs/2505.03673)[[Code]](https://github.com/FlagOpen/RoboOS) \
 [3]. [awesome-embodied-vla-va-vln](https://github.com/jonyzhang2023/awesome-embodied-vla-va-vln)
