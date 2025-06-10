@@ -1,4 +1,6 @@
 ## Multi-robot + RL
+* "POGEMA: A Benchmark Platform for Cooperative Multi-Agent Pathfinding" [[Paper]](https://openreview.net/forum?id=6VgwE2tCRm) [[Code]](https://github.com/CognitiveAISystems/pogema)
+* "Multi-agent cooperation through learning-aware policy gradients" [[Paper]](https://openreview.net/forum?id=GkWA6NjePN) [[Code]]()
 * "LAMARL: LLM-Aided Multi-Agent Reinforcement Learning for Cooperative Policy Generation" [[Paper]](https://guobin-zhu.github.io/LLM-MARL/) [[Code]](https://github.com/Guobin-Zhu/MARL-LLM/tree/master)
 * "Foundation Models to the Rescue: Deadlock Resolution in Connected Multi-Robot Systems" [[Paper]](https://arxiv.org/abs/2404.06413)
 * **Rocobench**: "RoCo: Dialectic Multi-Robot Collaboration with Large Language Models" [[Paper]](https://arxiv.org/abs/2307.04738)[[Code]](https://github.com/MandiZhao/robot-collab)
