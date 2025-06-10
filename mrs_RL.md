@@ -1,4 +1,5 @@
 ## Multi-robot + RL
+* "Intelligent Heterogeneous Multi-robot Catching System using Deep Multi-agent Reinforcement Learning" [[Paper]](https://freeformrobotics.org/wp-content/uploads/2023/03/22-1012.pdf) [[Code]]()
 * "MA2E: Addressing Partial Observability in Multi-Agent Reinforcement Learning with Masked Auto-Encoder" [[Paper]](https://openreview.net/forum?id=klpdEThT8q) [[Code]](https://github.com/cheesebro329/MA2E)
 * "POGEMA: A Benchmark Platform for Cooperative Multi-Agent Pathfinding" [[Paper]](https://openreview.net/forum?id=6VgwE2tCRm) [[Code]](https://github.com/CognitiveAISystems/pogema)
 * "Multi-agent cooperation through learning-aware policy gradients" [[Paper]](https://openreview.net/forum?id=GkWA6NjePN) [[Code]](https://github.com/jliu4ai/CaPo)
