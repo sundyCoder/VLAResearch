@@ -1,4 +1,13 @@
 ## Multi-robot + RL
+* "Intelligent Heterogeneous Multi-robot Catching System using Deep Multi-agent Reinforcement Learning" [[Paper]](https://freeformrobotics.org/wp-content/uploads/2023/03/22-1012.pdf) [[Code]]()
+* "MA2E: Addressing Partial Observability in Multi-Agent Reinforcement Learning with Masked Auto-Encoder" [[Paper]](https://openreview.net/forum?id=klpdEThT8q) [[Code]](https://github.com/cheesebro329/MA2E)
+* "POGEMA: A Benchmark Platform for Cooperative Multi-Agent Pathfinding" [[Paper]](https://openreview.net/forum?id=6VgwE2tCRm) [[Code]](https://github.com/CognitiveAISystems/pogema)
+* "Multi-agent cooperation through learning-aware policy gradients" [[Paper]](https://openreview.net/forum?id=GkWA6NjePN) [[Code]](https://github.com/jliu4ai/CaPo)
+* "Learning Generalizable Skills from Offline Multi-Task Data for Multi-Agent Cooperation" [[Paper]](https://openreview.net/forum?id=HR1ujVR0ig) [[Code]](https://github.com/mooricAnna/HiSSD)
+* "CaPo: Cooperative Plan Optimization for Efficient Embodied Multi-Agent Cooperation" [[Paper]](https://openreview.net/forum?id=KRv9NubipP) [[Code]]()
+* "Efficient Multi-agent Offline Coordination via Diffusion-based Trajectory Stitching" [[Paper]](https://openreview.net/forum?id=EpnZEzYDUT) [[Code]]()
+* "Toward Efficient Multi-Agent Exploration With Trajectory Entropy Maximization" [[Paper]](https://openreview.net/forum?id=YvKJGYL4j7) [[Code]]()
+* "eQMARL: Entangled Quantum Multi-Agent Reinforcement Learning for Distributed Cooperation over Quantum Channels" [[Paper]](https://openreview.net/forum?id=cR5GTis5II)
 * "LAMARL: LLM-Aided Multi-Agent Reinforcement Learning for Cooperative Policy Generation" [[Paper]](https://guobin-zhu.github.io/LLM-MARL/) [[Code]](https://github.com/Guobin-Zhu/MARL-LLM/tree/master)
 * "Foundation Models to the Rescue: Deadlock Resolution in Connected Multi-Robot Systems" [[Paper]](https://arxiv.org/abs/2404.06413)
 * **Rocobench**: "RoCo: Dialectic Multi-Robot Collaboration with Large Language Models" [[Paper]](https://arxiv.org/abs/2307.04738)[[Code]](https://github.com/MandiZhao/robot-collab)
