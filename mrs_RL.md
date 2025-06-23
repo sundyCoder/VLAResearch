@@ -16,3 +16,5 @@
 * **GLAM**: "Grounding Large Language Models in Interactive Environments with Online Reinforcement Learning", *arXiv, May 2023*. [[Paper](https://arxiv.org/abs/2302.02662)] [[Pytorch Code](https://github.com/flowersteam/Grounding_LLMs_with_online_RL)] 
 * **ExploRLLM**:"ExploRLLM: Guiding Exploration in Reinforcement Learning with Large Language Models", *arXiv, Mar 2024*. [[Paper](https://arxiv.org/abs/2403.09583)] [[Website](https://explorllm.github.io/)]
 * **Lafite-RL**: "Accelerating Reinforcement Learning of Robotic Manipulations via Feedback from Large Language Models", *CoRL Workshop, Nov 2023*. [[Paper](https://arxiv.org/abs/2311.02379)]
+* "Multi-robot RL Environment based on Gazebo". [[Code]](https://github.com/JunfengChen-robotics/MultiRoboLearn)
+* "General Navigation Models". [[Code]](https://github.com/robodhruv/visualnav-transformer/)

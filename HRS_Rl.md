@@ -2,4 +2,8 @@
 
 * "Heterogeneous Multi-Robot Reinforcement Learning". [[Paper]](https://arxiv.org/pdf/2301.07137) [[Code]](https://github.com/proroklab/HetGPPO) [[BenchMARL]](https://matteobettini.com/publication/benchmarl/) [[TorchRL]](https://github.com/pytorch/rl/tree/main/sota-implementations/multiagent)
 * "Heterogenous Pre-trained Transformers". [[Paper]](https://arxiv.org/abs/2409.20537) [[Code]](https://github.com/liruiw/HPT) [[Gym-Aloha]](https://github.com/huggingface/gym-aloha)
-* "The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games". [[Paper]](https://arxiv.org/abs/2103.01955) [[Code]](https://github.com/marlbenchmark/on-policy)
+* "Generalization of Heterogeneous Multi-Robot Policies via Awareness and Communication of Capabilities". [[Paper]](https://openreview.net/forum?id=N3VbFUpwaa) [[Code]](https://github.com/GT-STAR-Lab/cap-comm)
+* "Transformer-based Multi-Agent Reinforcement Learning for Generalization of Heterogeneous Multi-Robot Cooperation" [[Paper]](https://ieeexplore.ieee.org/document/10802580)
+* "Learning Heterogeneous Agent Collaboration in Decentralized Multi-Agent Systems via Intrinsic Motivation" [[Paper]](https://dl.acm.org/doi/abs/10.5555/3709347.3743977)
+* "Heuristics-Assisted Experience Replay Strategy for Cooperative Multi-Agent Reinforcement Learning" [[Paper]](https://ifaamas.csc.liv.ac.uk/Proceedings/aamas2025/pdfs/p2798.pdf)
+* "The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games". [[Paper]](https://arxiv.org/abs/2103.01955) [[Code]](https://github.com/marlbenchmark/on-policy) [[MPEs)]](https://github.com/openai/multiagent-particle-envs) [[GRF]](https://github.com/google-research/football) [[StarCraftII v2]](https://github.com/oxwhirl/smacv2)
