@@ -21,3 +21,5 @@
     * MAPPO builds upon PPO by introducing a centralized critic to leverage global information for better learning, particularly in cooperative settings. 
 10. "Selectively Sharing Experiences Improves Multi-Agent Reinforcement Learning" [[Paper]](https://openreview.net/forum?id=DpuphOgJqh&noteId=UhjBgbqvOt) [[Code]]()
 11. "Fully Decentralized Cooperative Multi-Agent Reinforcement Learning: A Survey" [[Paper]](https://arxiv.org/pdf/2401.04934) [[Code]]()
+12. "Decentralized Multi-Robot Navigation for Autonomous Surface Vehicles with Distributional Reinforcement Learning" [[Paper]](https://arxiv.org/abs/2402.11799) [[Code]](https://github.com/RobustFieldAutonomyLab/Multi_Robot_Distributional_RL_Navigation)
+13. "Multi-robot Exploration with RL" [[Code]](https://github.com/i1Cps/multi-robot-exploration-rl)
