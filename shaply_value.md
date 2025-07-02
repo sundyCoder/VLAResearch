@@ -44,6 +44,8 @@ In conclusion, the Shapley value offers a robust and theoretically sound method 
 
 ## Reference
 1. "Shapley Value Based Multi-Agent Reinforcement Learning: Theory, Method and Its Application to Energy Network" [[PHD Thesis]](https://arxiv.org/abs/2402.15324)
+2. "SHAQ: Incorporating Shapley Value Theory into Multi-Agent Q-Learning" [[Paper]](https://arxiv.org/abs/2105.15013) [[Code]](https://github.com/hsvgbkhgbv/shapley-q-learning/tree/master)
+3. "Shapley Q-value: A Local Reward Approach to Solve Global Reward Games" [[Paper]]()[[Code]](https://github.com/hsvgbkhgbv/SQDDPG)
 2. "Collective eXplainable AI: Explaining Cooperative strategies and agent contribution in Multiagent Reinforcement Learning with Shapley Values" [[Paper]](https://arxiv.org/abs/2110.01307)[[Code]](https://github.com/Fabien-Couthouis/XAI-in-RL)
     * MONTE CARLO APPROXIMATION OF SHAPLEY VALUES
 3. "Adaptive Value Decomposition with Greedy Marginal Contribution Computation for Cooperative Multi-Agent Reinforcement Learning" [[Paper]](https://arxiv.org/abs/2302.06872)

@@ -27,4 +27,4 @@
 16. "Heterogeneity in Multi-agent Systems" [[PhD Thesis]](https://research-information.bris.ac.uk/ws/portalfiles/portal/405101389/Heterogeneity_in_Multi_Agent_Systems.pdf)
 17. "Multi-robot Exploration with RL" [[Code]](https://github.com/i1Cps/multi-robot-exploration-rl)
 18. "PPO with transformers" [[Code]](https://github.com/datvodinh/ppo-transformer/tree/main)
-119. "Cooperative and Asynchronous Transformer-based Mission Planning for Heterogeneous Teams of Mobile Robots" [[Paper]](https://arxiv.org/abs/2410.06372) [[Code]](https://arxiv.org/abs/2410.06372)
+19. "Cooperative and Asynchronous Transformer-based Mission Planning for Heterogeneous Teams of Mobile Robots" [[Paper]](https://arxiv.org/abs/2410.06372) [[Code]](https://arxiv.org/abs/2410.06372)
