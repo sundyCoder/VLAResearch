@@ -30,6 +30,7 @@
 
 ### 2. Common and Platform
 1. "Revisiting Some Common Practices in Cooperative Multi-Agent Reinforcement Learning " [[Paper]](https://arxiv.org/abs/2206.07505)
+2. "Heterogeneous Multi-Robot Cooperation With Asynchronous Multi-Agent Reinforcement Learning " [[Paper]](https://ieeexplore.ieee.org/document/10301527)
 4. "Scaling Proprioceptive-Visual Learning with Heterogeneous Pre-trained Transformers". [[Paper]](https://arxiv.org/abs/2409.20537) [[Code]](https://github.com/liruiw/HPT) [[Gym-Aloha]](https://github.com/huggingface/gym-aloha)
 5. "Transformer-based Multi-Agent Reinforcement Learning for Generalization of Heterogeneous Multi-Robot Cooperation" [[Paper]](https://ieeexplore.ieee.org/document/10802580) [[Platform]](https://shubhlohiya.github.io/MARBLER/)
 6. "MARBLER: An Open Platform for Standardized Evaluation of Multi-Robot Reinforcement Learning Algorithms" [[Paper]](https://arxiv.org/abs/2307.03891) [[Code]](https://github.com/GT-STAR-Lab/MARBLER)
