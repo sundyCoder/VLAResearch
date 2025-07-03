@@ -18,12 +18,12 @@
 5. "Heterogeneous Skill Learning for Multi-agent Tasks " [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/hash/f0606b882692637835e8ac981089eccd-Abstract-Conference.html) [[Code]]()
     * To promote efficient skill discovery, a mutual information based intrinsic reward function is constructed
 7. "Dynamic Parameter Sharing in Multi-Agent Reinforcement Learning for Spatio-Temporal Resource Allocation" [[Paper]](https://dl.acm.org/doi/10.1145/3637528.3672052) [[Code]](https://github.com/tsinghua-fib-lab/DyPS/tree/main)
-8. "*Learning Flexible Heterogeneous Coordination With Capability-Aware Shared Hypernetworks*" [[Paper]](https://www.arxiv.org/abs/2501.06058v1) [[Code]]()
+8. "**Learning Flexible Heterogeneous Coordination With Capability-Aware Shared Hypernetworks**" [[Paper]](https://www.arxiv.org/abs/2501.06058v1) [[Code]]()
     * Introduces soft parameter sharing in heterogeneous multi-robot learning, establishing a new middle ground between shared and individualized parameter approaches.
     * Use Hypernetworks to flexibly determine parameters within individual robots’ policy or value networks based on their capabilities and local observations
 9. "Scaling Multi-Agent Reinforcement Learning with Selective Parameter Sharing"  [[Paper]](https://arxiv.org/abs/2102.07475) [[Code]]()
 10. "Selectively Sharing Experiences Improves Multi-Agent Reinforcement Learning" [[Paper]](https://openreview.net/forum?id=DpuphOgJqh&noteId=UhjBgbqvOt) [[Code]]()
-11. "Measuring Policy Distance for Multi-Agent Reinforcement Learning" [[Paper]](https://arxiv.org/pdf/2401.11257) [[Code]](https://github.com/Harry67Hu/MADPS)
+11. "**Measuring Policy Distance for Multi-Agent Reinforcement Learning**" [[Paper]](https://arxiv.org/pdf/2401.11257) [[Code]](https://github.com/Harry67Hu/MADPS)
 12. "Learning Heterogeneous Agent Collaboration in Decentralized Multi-Agent Systems via Intrinsic Motivation" [[Paper]](https://arxiv.org/pdf/2408.06503) [[Code]](https://github.com/jahirsadik/CoHet-Implementation)
 13. "Policy Diagnosis via Measuring Role Diversity in Cooperative Multi-agent RL" [[Paper]](https://arxiv.org/abs/2207.05683)
 14. "Hybrid Actor-Critic for Physically Heterogeneous Multi-Agent Reinforcement Learning " [[Paper]](https://ieeexplore.ieee.org/document/11006503)
