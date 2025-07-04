@@ -1,5 +1,8 @@
 ## Heterogeneous Multi-robot Cooperation
-### 1. Behavior Diversity
+### 1. Challenges in MARL
+1. "Challenges in MARL (Ning and Xie)" [[Blog]](https://vinaylanka.medium.com/multi-agent-reinforcement-learning-marl-1d55dfff6439)
+   
+### 2. Behavior Diversity
 1. "Heterogeneous Multi-Robot Reinforcement Learning". [[Paper]](https://arxiv.org/pdf/2301.07137) [[Code]](https://github.com/proroklab/HetGPPO) [[BenchMARL]](https://matteobettini.com/publication/benchmarl/) [[TorchRL]](https://github.com/pytorch/rl/tree/main/sota-implementations/multiagent) [[VMAS]](https://github.com/proroklab/VectorizedMultiAgentSimulator) 
     * HetGPPO learns individual agnet policies: 1) Use neighbourhood communication to overcome partial observability. 2) Allows decentralized training of GNNs.
     * This study found that homogeneous agents are able to infer behavioral roles through observations, emulating heterogeneous behavior, which is call **behavioral typing**.
@@ -28,7 +31,7 @@
 13. "Policy Diagnosis via Measuring Role Diversity in Cooperative Multi-agent RL" [[Paper]](https://arxiv.org/abs/2207.05683)
 14. "Hybrid Actor-Critic for Physically Heterogeneous Multi-Agent Reinforcement Learning " [[Paper]](https://ieeexplore.ieee.org/document/11006503)
 
-### 2. Common and Platform
+### 3. Common and Platform
 1. "Revisiting Some Common Practices in Cooperative Multi-Agent Reinforcement Learning " [[Paper]](https://arxiv.org/abs/2206.07505)
 2. "Heterogeneous Multi-Robot Cooperation With Asynchronous Multi-Agent Reinforcement Learning " [[Paper]](https://ieeexplore.ieee.org/document/10301527)
 4. "Scaling Proprioceptive-Visual Learning with Heterogeneous Pre-trained Transformers". [[Paper]](https://arxiv.org/abs/2409.20537) [[Code]](https://github.com/liruiw/HPT) [[Gym-Aloha]](https://github.com/huggingface/gym-aloha)
