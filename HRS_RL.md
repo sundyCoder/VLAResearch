@@ -15,11 +15,15 @@
     <img src="images/Behavioral_typing.png" alt="taxonomy_HMRs" width="600"/>
     <img src="images/HetGPPO_results.png" alt="taxonomy_HMRs" width="600"/>    
     <img src="images/ecosystem_MARL.png" alt="taxonomy_HMRs" width="600"/>
+2. "System Neural Diversity: Measuring Behavioral Heterogeneity in Multi-Agent Learning" [[Paper]](https://arxiv.org/pdf/2305.02128)
+<img src="images/SND.png" width="600">
+<img src="images/SND_releated.png" width="600">
 2. "**Controlling Behavioral Diversity in Multi-Agent Reinforcement Learning**" [[Paper]](https://arxiv.org/abs/2405.15054) [[Code]]()
     * How to control the diversity of a multi-agent system to an exact, quantified value?
     * Behavioral diversity in MARL is intrinsically tied to the con- cept of policy parameter sharing (Christianos et al., 2021).  When agents share policy parameters, they obtain higher sample efficiency, but learn a single homogeneous policy.  When agents do not share parameters, they are able to learn heterogeneous policies, but achieve lower sample efficiency
     * A common solution to promote diversity among agents in a system is to design an intrinsic reward that is added to the task reward, creating an auxiliary objective for the agents
 3. "**Measuring Policy Distance for Multi-Agent Reinforcement Learning**" [[Paper]](https://arxiv.org/pdf/2401.11257) [[Code]](https://github.com/Harry67Hu/MADPS)
+    * SND methods assume the action distributionis Gaussian distribution. This work argue that the agents might take actions under different distributions, such as bimodal. Things may get worse in scenarios when agents take discrete actions.
     * Policy diversity: 1)incorporate agent indices into the observations. 2)group the agents based on prior knowledge or learned information, only sharing parameters within groups. 3)sharing parameters based on their roles.
     * Policy distance metric: KL divergence, MMD, W-distance, compute the policy distance by integrating the distances of the latent distributions instead of directly measuring the policies.
     * Dynamic parameter sharing: Fuse the policies of closely releated agents while dividing the policies of agents with significant differences.
