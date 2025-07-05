@@ -50,7 +50,7 @@ In conclusion, the Shapley value offers a robust and theoretically sound method 
     * MONTE CARLO APPROXIMATION OF SHAPLEY VALUES
 3. "Adaptive Value Decomposition with Greedy Marginal Contribution Computation for Cooperative Multi-Agent Reinforcement Learning" [[Paper]](https://arxiv.org/abs/2302.06872)
 4. "Heterogeneous Value Decomposition Policy Fusion for Multi-Agent Cooperation" [[Paper]](https://arxiv.org/abs/2502.02875)
-5. "SHAQ: Incorporating Shapley Value Theory into Multi-Agent Q-Learning" [[Paper]](https://openreview.net/forum?id=GQcB1D2bxSC) 
+5. "SHAQ: Incorporating Shapley Value Theory into Multi-Agent Q-Learning" [[Paper]](https://openreview.net/forum?id=GQcB1D2bxSC) [[Code]](https://github.com/hsvgbkhgbv/shapley-q-learning)
 6. "Partner Selection for the Emergence of Cooperation in Multi-Agent Systems Using Reinforcement Learning" [[Paper]](https://arxiv.org/abs/1902.03185)
 7. "Shapley Library" [[Code]](https://shap.readthedocs.io/en/latest/index.html) [[Shapley Value + PPO]](https://github.com/MaximeSzymanski/PPO)
 8. "Adaptive Value Decomposition with Greedy Marginal Contribution Computation for Cooperative Multi-Agent Reinforcement Learning" [[Paper]](https://arxiv.org/abs/2302.06872)
