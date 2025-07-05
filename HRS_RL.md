@@ -15,7 +15,7 @@
     <img src="images/Behavioral_typing.png" alt="taxonomy_HMRs" width="600"/>
     <img src="images/HetGPPO_results.png" alt="taxonomy_HMRs" width="600"/>    
     <img src="images/ecosystem_MARL.png" alt="taxonomy_HMRs" width="600"/>
-2. "System Neural Diversity: Measuring Behavioral Heterogeneity in Multi-Agent Learning" [[Paper]](https://arxiv.org/pdf/2305.02128)
+2. "System Neural Diversity: Measuring Behavioral Heterogeneity in Multi-Agent Learning" [[Paper]](https://arxiv.org/pdf/2305.02128) [[Code]](https://codeocean.com/capsule/4161071/tree/v1)
 <img src="images/SND.png" width="600">
 <img src="images/SND_releated.png" width="600">
 2. "**Controlling Behavioral Diversity in Multi-Agent Reinforcement Learning**" [[Paper]](https://arxiv.org/abs/2405.15054) [[Code]]()
@@ -42,6 +42,10 @@
 12. "Learning Heterogeneous Agent Collaboration in Decentralized Multi-Agent Systems via Intrinsic Motivation" [[Paper]](https://arxiv.org/pdf/2408.06503) [[Code]](https://github.com/jahirsadik/CoHet-Implementation)
 13. "Policy Diagnosis via Measuring Role Diversity in Cooperative Multi-agent RL" [[Paper]](https://arxiv.org/abs/2207.05683)
 14. "Hybrid Actor-Critic for Physically Heterogeneous Multi-Agent Reinforcement Learning " [[Paper]](https://ieeexplore.ieee.org/document/11006503)
+15. "Policy Fusion for Adaptive and Customizable Reinforcement Learning Agents" [[Paper]](https://arxiv.org/abs/2104.10610)[[Video]](https://video.itu.dk/video/71784304/policy-fusion-for-adaptive-and)
+<img src="images/policy_fusion_methods.png" width="600">
+16. "PoCo: Policy Composition from and for Heterogeneous Robot Learning" [[Paper]](https://arxiv.org/pdf/2402.02511) [[Code]](https://liruiw.github.io/policycomp)
+17. "Robot Fleet Learning via Policy Merging" [[Paper]](https://arxiv.org/abs/2310.01362) [[Code]](https://github.com/liruiw/Fleet-Tools)
 
 ### 3. Common and Platform
 1. "Revisiting Some Common Practices in Cooperative Multi-Agent Reinforcement Learning " [[Paper]](https://arxiv.org/abs/2206.07505)
