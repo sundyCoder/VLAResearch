@@ -4,21 +4,30 @@
    
 ### 2. Behavior Diversity
 1. "Heterogeneous Multi-Robot Reinforcement Learning". [[Paper]](https://arxiv.org/pdf/2301.07137) [[Code]](https://github.com/proroklab/HetGPPO) [[BenchMARL]](https://matteobettini.com/publication/benchmarl/) [[TorchRL]](https://github.com/pytorch/rl/tree/main/sota-implementations/multiagent) [[VMAS]](https://github.com/proroklab/VectorizedMultiAgentSimulator) 
+   * Physical heterogeneous: when one of agents' or robots' components differs from the others in terms of hardware or physical constraints. e.g., different sensors, actuators, motion constraints, etc. This type of heterogeneity can lead to different observation and action spaces.
+    * Behavioral heterogeneous: when at least one of its components differs from the others in terms of software or behavioral model. That is, two hehaviorally heterogeneous agents can produce distinct policy outputs when observing the same input.
+        * Same objective: agents share the same objective function through heterogeneous behavior. In MARL, this means that they share the same (global or local) reward function. e.g., cooperative settings, or in adversarial scenarios where the agents with the same objective compete for limited resources.
+        * Different objective: agents optimize the different objective function through heterogeneous behaviors. In MARL, this means that they have different local reward function or a global reward deriving from the composition of such local functions. e.g., non-cooperative or adversarial setting. However, it can also model cooperative scenarios where agents optimize different sub-functions for a higher-order tasks.
+    * Heterogeneity in MARL: 1) Physical heterogeneity: agent indexing, mapping heterogeneous obervation spaces into homogeneous fixed-length encodings, or by padding and including the agent index into observations. 2)Behavioral heterogeneity: intrinsic reward
     * HetGPPO learns individual agnet policies: 1) Use neighbourhood communication to overcome partial observability. 2) Allows decentralized training of GNNs.
     * This study found that homogeneous agents are able to infer behavioral roles through observations, emulating heterogeneous behavior, which is call **behavioral typing**.
     <img src="images/taxonomy_HMRs.png" alt="taxonomy_HMRs" width="600"/>
     <img src="images/Behavioral_typing.png" alt="taxonomy_HMRs" width="600"/>
     <img src="images/HetGPPO_results.png" alt="taxonomy_HMRs" width="600"/>    
     <img src="images/ecosystem_MARL.png" alt="taxonomy_HMRs" width="600"/>
-2. "Controlling Behavioral Diversity in Multi-Agent Reinforcement Learning" [[Paper]](https://arxiv.org/abs/2405.15054) [[Code]]()
+2. "**Controlling Behavioral Diversity in Multi-Agent Reinforcement Learning**" [[Paper]](https://arxiv.org/abs/2405.15054) [[Code]]()
     * How to control the diversity of a multi-agent system to an exact, quantified value?
     * Behavioral diversity in MARL is intrinsically tied to the con- cept of policy parameter sharing (Christianos et al., 2021).  When agents share policy parameters, they obtain higher sample efficiency, but learn a single homogeneous policy.  When agents do not share parameters, they are able to learn heterogeneous policies, but achieve lower sample efficiency
     * A common solution to promote diversity among agents in a system is to design an intrinsic reward that is added to the task reward, creating an auxiliary objective for the agents
-    * can be used for resolving frozen between multi-robot collison avoidance.
-3. "When Is Diversity Rewarded in Cooperative Multi-Agent Learning?" [[Paper]](https://arxiv.org/pdf/2506.09434)
-4. "Celebrating Diversity in Shared Multi-Agent Reinforcement Learning" [[Paper]](https://openreview.net/forum?id=CO87OIEOGU8) [[Code]](https://github.com/lich14/CDS)
+3. "**Measuring Policy Distance for Multi-Agent Reinforcement Learning**" [[Paper]](https://arxiv.org/pdf/2401.11257) [[Code]](https://github.com/Harry67Hu/MADPS)
+    * Policy diversity: 1)incorporate agent indices into the observations. 2)group the agents based on prior knowledge or learned information, only sharing parameters within groups. 3)sharing parameters based on their roles.
+    * Policy distance metric: KL divergence, MMD, W-distance, compute the policy distance by integrating the distances of the latent distributions instead of directly measuring the policies.
+    * Dynamic parameter sharing: Fuse the policies of closely releated agents while dividing the policies of agents with significant differences.
+4. "When Is Diversity Rewarded in Cooperative Multi-Agent Learning?" [[Paper]](https://arxiv.org/pdf/2506.09434)
+    * Research questions: under what conditions will heterogeneous agents outperform the best homogeneous baseline ?
+5. "Celebrating Diversity in Shared Multi-Agent Reinforcement Learning" [[Paper]](https://openreview.net/forum?id=CO87OIEOGU8) [[Code]](https://github.com/lich14/CDS)
     * DS achieves remarkable success in challenging benchmarks SMAC and GRF by balancing sharing and diversity.
-5. "Heterogeneous Skill Learning for Multi-agent Tasks " [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/hash/f0606b882692637835e8ac981089eccd-Abstract-Conference.html) [[Code]]()
+6. "Heterogeneous Skill Learning for Multi-agent Tasks " [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/hash/f0606b882692637835e8ac981089eccd-Abstract-Conference.html) [[Code]]()
     * To promote efficient skill discovery, a mutual information based intrinsic reward function is constructed
 7. "Dynamic Parameter Sharing in Multi-Agent Reinforcement Learning for Spatio-Temporal Resource Allocation" [[Paper]](https://dl.acm.org/doi/10.1145/3637528.3672052) [[Code]](https://github.com/tsinghua-fib-lab/DyPS/tree/main)
 8. "**Learning Flexible Heterogeneous Coordination With Capability-Aware Shared Hypernetworks**" [[Paper]](https://www.arxiv.org/abs/2501.06058v1) [[Code]]()
@@ -26,7 +35,6 @@
     * Use Hypernetworks to flexibly determine parameters within individual robots’ policy or value networks based on their capabilities and local observations
 9. "Scaling Multi-Agent Reinforcement Learning with Selective Parameter Sharing"  [[Paper]](https://arxiv.org/abs/2102.07475) [[Code]]()
 10. "Selectively Sharing Experiences Improves Multi-Agent Reinforcement Learning" [[Paper]](https://openreview.net/forum?id=DpuphOgJqh&noteId=UhjBgbqvOt) [[Code]]()
-11. "**Measuring Policy Distance for Multi-Agent Reinforcement Learning**" [[Paper]](https://arxiv.org/pdf/2401.11257) [[Code]](https://github.com/Harry67Hu/MADPS)
 12. "Learning Heterogeneous Agent Collaboration in Decentralized Multi-Agent Systems via Intrinsic Motivation" [[Paper]](https://arxiv.org/pdf/2408.06503) [[Code]](https://github.com/jahirsadik/CoHet-Implementation)
 13. "Policy Diagnosis via Measuring Role Diversity in Cooperative Multi-agent RL" [[Paper]](https://arxiv.org/abs/2207.05683)
 14. "Hybrid Actor-Critic for Physically Heterogeneous Multi-Agent Reinforcement Learning " [[Paper]](https://ieeexplore.ieee.org/document/11006503)
@@ -54,4 +62,4 @@
 
 ### 3. My Thinking
 1. Realizing Partner Selection with Agent's Contribution (Shapely Value)
-2. Solve Multi-robot Frozen Probem by learning Diverse Behavior with MARL
+2. Solve Multi-robot Frozen Problem by learning Diverse Behavior with MARL
