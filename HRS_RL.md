@@ -3,6 +3,10 @@
 1. "Challenges in MARL (Ning and Xie)" [[Blog]](https://vinaylanka.medium.com/multi-agent-reinforcement-learning-marl-1d55dfff6439)
    
 ### 2. Behavior Diversity
+* Shared parameter learning
+* Independent parameter leanring
+* Selective parameter sharing
+* Soft parameter sharing
 1. "Heterogeneous Multi-Robot Reinforcement Learning". [[Paper]](https://arxiv.org/pdf/2301.07137) [[Code]](https://github.com/proroklab/HetGPPO) [[BenchMARL]](https://matteobettini.com/publication/benchmarl/) [[TorchRL]](https://github.com/pytorch/rl/tree/main/sota-implementations/multiagent) [[VMAS]](https://github.com/proroklab/VectorizedMultiAgentSimulator) 
    * Physical heterogeneous: when one of agents' or robots' components differs from the others in terms of hardware or physical constraints. e.g., different sensors, actuators, motion constraints, etc. This type of heterogeneity can lead to different observation and action spaces.
     * Behavioral heterogeneous: when at least one of its components differs from the others in terms of software or behavioral model. That is, two hehaviorally heterogeneous agents can produce distinct policy outputs when observing the same input.
@@ -11,6 +15,7 @@
     * Heterogeneity in MARL: 1) Physical heterogeneity: agent indexing, mapping heterogeneous obervation spaces into homogeneous fixed-length encodings, or by padding and including the agent index into observations. 2)Behavioral heterogeneity: intrinsic reward
     * HetGPPO learns individual agnet policies: 1) Use neighbourhood communication to overcome partial observability. 2) Allows decentralized training of GNNs.
     * This study found that homogeneous agents are able to infer behavioral roles through observations, emulating heterogeneous behavior, which is call **behavioral typing**.
+    
     <img src="images/taxonomy_HMRs.png" alt="taxonomy_HMRs" width="600"/>
     <img src="images/Behavioral_typing.png" alt="taxonomy_HMRs" width="600"/>
     <img src="images/HetGPPO_results.png" alt="taxonomy_HMRs" width="600"/>    
@@ -29,22 +34,24 @@
     * Policy diversity: 1)incorporate agent indices into the observations. 2)group the agents based on prior knowledge or learned information, only sharing parameters within groups. 3)sharing parameters based on their roles.
     * Policy distance metric: KL divergence, MMD, W-distance, compute the policy distance by integrating the distances of the latent distributions instead of directly measuring the policies.
     * Dynamic parameter sharing: Fuse the policies of closely releated agents while dividing the policies of agents with significant differences.
-4. "When Is Diversity Rewarded in Cooperative Multi-Agent Learning?" [[Paper]](https://arxiv.org/pdf/2506.09434)
+5. "When Is Diversity Rewarded in Cooperative Multi-Agent Learning?" [[Paper]](https://arxiv.org/pdf/2506.09434)
     * Research questions: under what conditions will heterogeneous agents outperform the best homogeneous baseline ?
-5. "Celebrating Diversity in Shared Multi-Agent Reinforcement Learning" [[Paper]](https://openreview.net/forum?id=CO87OIEOGU8) [[Code]](https://github.com/lich14/CDS)
+6. "Celebrating Diversity in Shared Multi-Agent Reinforcement Learning" [[Paper]](https://openreview.net/forum?id=CO87OIEOGU8) [[Code]](https://github.com/lich14/CDS)
     * DS achieves remarkable success in challenging benchmarks SMAC and GRF by balancing sharing and diversity.
-6. "Heterogeneous Skill Learning for Multi-agent Tasks " [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/hash/f0606b882692637835e8ac981089eccd-Abstract-Conference.html) [[Code]]()
+7. "Heterogeneous Skill Learning for Multi-agent Tasks " [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/hash/f0606b882692637835e8ac981089eccd-Abstract-Conference.html) [[Code]]()
     * To promote efficient skill discovery, a mutual information based intrinsic reward function is constructed
-7. "Dynamic Parameter Sharing in Multi-Agent Reinforcement Learning for Spatio-Temporal Resource Allocation" [[Paper]](https://dl.acm.org/doi/10.1145/3637528.3672052) [[Code]](https://github.com/tsinghua-fib-lab/DyPS/tree/main)
-8. "**Learning Flexible Heterogeneous Coordination With Capability-Aware Shared Hypernetworks**" [[Paper]](https://www.arxiv.org/abs/2501.06058v1) [[Code]](https://github.com/GT-STAR-Lab/CASH)
+8. "Dynamic Parameter Sharing in Multi-Agent Reinforcement Learning for Spatio-Temporal Resource Allocation" [[Paper]](https://dl.acm.org/doi/10.1145/3637528.3672052) [[Code]](https://github.com/tsinghua-fib-lab/DyPS/tree/main)
+9. "**Learning Flexible Heterogeneous Coordination With Capability-Aware Shared Hypernetworks**" [[Paper]](https://www.arxiv.org/abs/2501.06058v1) [[Code]](https://github.com/GT-STAR-Lab/CASH)
     * Limitations of existing works:
         * i) shared-parameter methods, which encode diverse behaviors within a single architecture by assigning an ID to each agent, and are sample-efficient but result in limited behavioral diversity; 
         * ii) independent methods, which learn a separate policy for each agent, and show greater behavioral diversity but lack sample-efficiency. 
+    * CASH consists of a RNN-based Encoder, a Hyper Adapter, and an Adaptive Decoder. The encoder helps learn agent-agnostic coordination strategies that are shared across agents regardless of their capabilities. The Hyper Adapter learns to map the current observations and the agents’ capabilities to the weights of the Adaptive Decoder.
     * Introduces soft parameter sharing in heterogeneous multi-robot learning, establishing a new middle ground between shared and individualized parameter approaches.
     * Use Hypernetworks to flexibly determine parameters within individual robots’ policy or value networks based on their capabilities and local observations
-9. "Scaling Multi-Agent Reinforcement Learning with Selective Parameter Sharing"  [[Paper]](https://arxiv.org/abs/2102.07475) [[Code]]()
+10. "HyperMARL: Adaptive Hypernetworks for Multi-Agent RL" [[Paper]](https://arxiv.org/abs/2412.04233) [[Code]](https://github.com/KaleabTessera/HyperMARL)
+10. "Scaling Multi-Agent Reinforcement Learning with Selective Parameter Sharing"  [[Paper]](https://arxiv.org/abs/2102.07475) [[Code]]()
     * automatically identify agents which may benefit from sharing parameters by partitioning them based on their abilities and goals.
-10. "Selectively Sharing Experiences Improves Multi-Agent Reinforcement Learning" [[Paper]](https://openreview.net/forum?id=DpuphOgJqh&noteId=UhjBgbqvOt) [[Code]]()
+11. "Selectively Sharing Experiences Improves Multi-Agent Reinforcement Learning" [[Paper]](https://openreview.net/forum?id=DpuphOgJqh&noteId=UhjBgbqvOt) [[Code]]()
 12. "Learning Heterogeneous Agent Collaboration in Decentralized Multi-Agent Systems via Intrinsic Motivation" [[Paper]](https://arxiv.org/pdf/2408.06503) [[Code]](https://github.com/jahirsadik/CoHet-Implementation)
 13. "Policy Diagnosis via Measuring Role Diversity in Cooperative Multi-agent RL" [[Paper]](https://arxiv.org/abs/2207.05683)
 14. "Hybrid Actor-Critic for Physically Heterogeneous Multi-Agent Reinforcement Learning " [[Paper]](https://ieeexplore.ieee.org/document/11006503)
@@ -53,7 +60,13 @@
     <img src="images/policy_fusion_methods.png" width="600">
 
 16. "PoCo: Policy Composition from and for Heterogeneous Robot Learning" [[Paper]](https://arxiv.org/pdf/2402.02511) [[Code]](https://liruiw.github.io/policycomp)
+    * Mixture policy: the resulting policy is the average of the main and all sub-policies
+    * Product Policy (PP): the resulting policy is the product of the main and all sub-policies
+    * Entropy-Threshold Policy (ET): we compute the entropy of all policies at state st and find the sub-policy k∗ with minimum entropy
+    * Entropy-Weighted Mixture Policy (EW): the resulting policy is a weighted average of the main policy and the minimum-entropy sub-policy.
+    
 17. "Robot Fleet Learning via Policy Merging" [[Paper]](https://arxiv.org/abs/2310.01362) [[Code]](https://github.com/liruiw/Fleet-Tools)
+
 
 ### 3. Common and Platform
 1. "Revisiting Some Common Practices in Cooperative Multi-Agent Reinforcement Learning " [[Paper]](https://arxiv.org/abs/2206.07505)
@@ -74,7 +87,7 @@
 17. "Multi-robot Exploration with RL" [[Code]](https://github.com/i1Cps/multi-robot-exploration-rl)
 18. "PPO with transformers" [[Code]](https://github.com/datvodinh/ppo-transformer/tree/main)
 19. "Cooperative and Asynchronous Transformer-based Mission Planning for Heterogeneous Teams of Mobile Robots" [[Paper]](https://arxiv.org/abs/2410.06372) [[Code]](https://arxiv.org/abs/2410.06372)
-
+20. "JaxRobotarium: Train and Deploy Multi-Robot Policies in 10 Minutes" [[Paper]](https://arxiv.org/abs/2505.06771)[[Code]](https://github.com/GT-STAR-Lab/JaxRobotarium)
 
 ### 3. My Thinking
 1. Realizing Partner Selection with Agent's Contribution (Shapely Value)
