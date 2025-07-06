@@ -16,13 +16,15 @@
     <img src="images/HetGPPO_results.png" alt="taxonomy_HMRs" width="600"/>    
     <img src="images/ecosystem_MARL.png" alt="taxonomy_HMRs" width="600"/>
 2. "System Neural Diversity: Measuring Behavioral Heterogeneity in Multi-Agent Learning" [[Paper]](https://arxiv.org/pdf/2305.02128) [[Code]](https://codeocean.com/capsule/4161071/tree/v1)
-<img src="images/SND.png" width="600">
-<img src="images/SND_releated.png" width="600">
-2. "**Controlling Behavioral Diversity in Multi-Agent Reinforcement Learning**" [[Paper]](https://arxiv.org/abs/2405.15054) [[Code]]()
+
+    <img src="images/SND.png" width="600">
+    <img src="images/SND_releated.png" width="600">
+
+3. "**Controlling Behavioral Diversity in Multi-Agent Reinforcement Learning**" [[Paper]](https://arxiv.org/abs/2405.15054) [[Code]]()
     * How to control the diversity of a multi-agent system to an exact, quantified value?
     * Behavioral diversity in MARL is intrinsically tied to the con- cept of policy parameter sharing (Christianos et al., 2021).  When agents share policy parameters, they obtain higher sample efficiency, but learn a single homogeneous policy.  When agents do not share parameters, they are able to learn heterogeneous policies, but achieve lower sample efficiency
     * A common solution to promote diversity among agents in a system is to design an intrinsic reward that is added to the task reward, creating an auxiliary objective for the agents
-3. "**Measuring Policy Distance for Multi-Agent Reinforcement Learning**" [[Paper]](https://arxiv.org/pdf/2401.11257) [[Code]](https://github.com/Harry67Hu/MADPS)
+4. "**Measuring Policy Distance for Multi-Agent Reinforcement Learning**" [[Paper]](https://arxiv.org/pdf/2401.11257) [[Code]](https://github.com/Harry67Hu/MADPS)
     * SND methods assume the action distributionis Gaussian distribution. This work argue that the agents might take actions under different distributions, such as bimodal. Things may get worse in scenarios when agents take discrete actions.
     * Policy diversity: 1)incorporate agent indices into the observations. 2)group the agents based on prior knowledge or learned information, only sharing parameters within groups. 3)sharing parameters based on their roles.
     * Policy distance metric: KL divergence, MMD, W-distance, compute the policy distance by integrating the distances of the latent distributions instead of directly measuring the policies.
@@ -34,7 +36,10 @@
 6. "Heterogeneous Skill Learning for Multi-agent Tasks " [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/hash/f0606b882692637835e8ac981089eccd-Abstract-Conference.html) [[Code]]()
     * To promote efficient skill discovery, a mutual information based intrinsic reward function is constructed
 7. "Dynamic Parameter Sharing in Multi-Agent Reinforcement Learning for Spatio-Temporal Resource Allocation" [[Paper]](https://dl.acm.org/doi/10.1145/3637528.3672052) [[Code]](https://github.com/tsinghua-fib-lab/DyPS/tree/main)
-8. "**Learning Flexible Heterogeneous Coordination With Capability-Aware Shared Hypernetworks**" [[Paper]](https://www.arxiv.org/abs/2501.06058v1) [[Code]]()
+8. "**Learning Flexible Heterogeneous Coordination With Capability-Aware Shared Hypernetworks**" [[Paper]](https://www.arxiv.org/abs/2501.06058v1) [[Code]](https://github.com/GT-STAR-Lab/CASH)
+    * Limitations of existing works:
+        * i) shared-parameter methods, which encode diverse behaviors within a single architecture by assigning an ID to each agent, and are sample-efficient but result in limited behavioral diversity; 
+        * ii) independent methods, which learn a separate policy for each agent, and show greater behavioral diversity but lack sample-efficiency. 
     * Introduces soft parameter sharing in heterogeneous multi-robot learning, establishing a new middle ground between shared and individualized parameter approaches.
     * Use Hypernetworks to flexibly determine parameters within individual robots’ policy or value networks based on their capabilities and local observations
 9. "Scaling Multi-Agent Reinforcement Learning with Selective Parameter Sharing"  [[Paper]](https://arxiv.org/abs/2102.07475) [[Code]]()
@@ -44,7 +49,9 @@
 13. "Policy Diagnosis via Measuring Role Diversity in Cooperative Multi-agent RL" [[Paper]](https://arxiv.org/abs/2207.05683)
 14. "Hybrid Actor-Critic for Physically Heterogeneous Multi-Agent Reinforcement Learning " [[Paper]](https://ieeexplore.ieee.org/document/11006503)
 15. "Policy Fusion for Adaptive and Customizable Reinforcement Learning Agents" [[Paper]](https://arxiv.org/abs/2104.10610)[[Video]](https://video.itu.dk/video/71784304/policy-fusion-for-adaptive-and)
-<img src="images/policy_fusion_methods.png" width="600">
+
+    <img src="images/policy_fusion_methods.png" width="600">
+
 16. "PoCo: Policy Composition from and for Heterogeneous Robot Learning" [[Paper]](https://arxiv.org/pdf/2402.02511) [[Code]](https://liruiw.github.io/policycomp)
 17. "Robot Fleet Learning via Policy Merging" [[Paper]](https://arxiv.org/abs/2310.01362) [[Code]](https://github.com/liruiw/Fleet-Tools)
 
