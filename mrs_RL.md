@@ -1,4 +1,10 @@
 ## Multi-robot + RL
+
+### 1. RL basis
+1. What is a Markovian Process?
+  * A Markovian Process is a type of stochastic (random) process where *the future state of a system depends only on its current state*, not on its entire history
+
+### 2. RL in Multi-robot
 * "Intelligent Heterogeneous Multi-robot Catching System using Deep Multi-agent Reinforcement Learning" [[Paper]](https://freeformrobotics.org/wp-content/uploads/2023/03/22-1012.pdf) [[Code]]()
 * "MA2E: Addressing Partial Observability in Multi-Agent Reinforcement Learning with Masked Auto-Encoder" [[Paper]](https://openreview.net/forum?id=klpdEThT8q) [[Code]](https://github.com/cheesebro329/MA2E)
 * "POGEMA: A Benchmark Platform for Cooperative Multi-Agent Pathfinding" [[Paper]](https://openreview.net/forum?id=6VgwE2tCRm) [[Code]](https://github.com/CognitiveAISystems/pogema)
