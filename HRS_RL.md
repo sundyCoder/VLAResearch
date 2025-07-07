@@ -69,6 +69,7 @@
 18. "Mixtures of Experts Unlock Parameter Scaling for Deep RL" [[Paper]](https://arxiv.org/pdf/2402.08609)[[Code]](https://github.com/google/dopamine/blob/master/dopamine/labs/moes)
 19. "Mastering Massive Multi-Task Reinforcement Learning via Mixture-of-Expert Decision Transformer" [[Paper]](https://arxiv.org/abs/2505.24378)[[Code]](https://github.com/KongYilun/M3DT)
 20. "MoE-Loco: Mixture of Experts for Multitask Locomotion" [[Paper]](https://arxiv.org/abs/2503.08564)[[Code]](https://moe-loco.github.io/)
+21. "Heterogeneous Multi-robot Task Allocation and Scheduling via Reinforcement Learning" [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10854527) [[Code]](https://github.com/marmotlab/HeteroMRTA)
 
 ### 3. Common and Platform
 1. "Revisiting Some Common Practices in Cooperative Multi-Agent Reinforcement Learning " [[Paper]](https://arxiv.org/abs/2206.07505)
