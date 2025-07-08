@@ -76,7 +76,7 @@
 
 ### 3. Common and Platform
 1. "*ClearRL*: High-quality single file implementation of Deep Reinforcement Learning algorithms with research-friendly features (PPO, DQN, C51, DDPG, TD3, SAC, PPG)" [[Code]](https://github.com/vwxyzjn/cleanrl/)
-2. 
+2. "*PureJaxRL*" [[Code]](https://github.com/luchris429/purejaxrl)
 3. "Revisiting Some Common Practices in Cooperative Multi-Agent Reinforcement Learning " [[Paper]](https://arxiv.org/abs/2206.07505)
 2. "Heterogeneous Multi-Robot Cooperation With Asynchronous Multi-Agent Reinforcement Learning " [[Paper]](https://ieeexplore.ieee.org/document/10301527)
 4. "Scaling Proprioceptive-Visual Learning with Heterogeneous Pre-trained Transformers". [[Paper]](https://arxiv.org/abs/2409.20537) [[Code]](https://github.com/liruiw/HPT) [[Gym-Aloha]](https://github.com/huggingface/gym-aloha)
