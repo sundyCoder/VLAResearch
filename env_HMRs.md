@@ -6,4 +6,12 @@
 * python3 -m pip install jupyter
 * python3 -m ipykernel install --user --name="code_HMRs" --display-name="code_HMRs"
 
+## 3. Start a local Ray instance
+```
+   ray.init(
+        #_temp_dir=str(PathUtils.scratch_dir / "ray"),
+        ignore_reinit_error=True,
+        local_mode=local_mode,
+    )
+```
 
