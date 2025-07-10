@@ -15,3 +15,5 @@
     )
 ```
 
+## 4. Start Tensorboard
+* tensorboard --logdir . --host 0.0.0.0 --port 6006
